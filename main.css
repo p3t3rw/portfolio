@@ -1,0 +1,62 @@
+main{
+  display: grid;
+  height: 1000px;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  opacity: 0.9;
+  background-size: cover;
+  
+}
+
+.main-para{
+  margin-top: 200px;
+  padding-left: 5%;
+  padding-right: 25%;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+ font-size: 40px;
+ 
+  
+}
+.main-div-two{
+    height: inherit;
+    background-image: url(20231012_131217.jpg);
+    background-size: cover;
+  }
+
+.main-img{
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+.page-top-div{
+height: 1000px;
+  flex: 1;
+ flex-direction: column;
+  background-color: black;
+  opacity: 0.8;
+  background-size: cover;
+  justify-content: center;
+}
+.page-header{
+  padding-top:40px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  color: aliceblue;
+
+}
+.page-para-div{
+  display: flex;
+  justify-content: center;
+}
+
+.page-para{
+  width: 65%;
+ text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  
+}

@@ -1,0 +1,37 @@
+footer{
+  display: flex;
+  margin-left: 0;
+  height: 40px;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.7;
+  border: solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: green;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  
+ 
+}
+.foot-nav{
+  display: flex;
+  height: inherit;
+  width: 95%;
+  justify-content:space-around;
+
+}
+.foot-img-cont{
+  max-width: 25%;
+  height:inherit;
+}
+.foot-img{
+  max-width: 100%;
+  height: inherit;
+
+}

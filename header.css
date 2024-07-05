@@ -1,0 +1,39 @@
+header{
+  display: flex;
+  flex: 1;
+  margin-top: 0;
+  height: 150px;
+ justify-content: space-between;
+ border: solid;
+border-color: green;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+align-items: end;
+opacity: 0.9;
+background-size: cover;
+background-color: black;
+ 
+}
+.banner-img{
+  flex: 1;
+}
+.profile-pic-container{
+  width: 25%;
+  height: inherit;
+}
+.profile-pic{
+ height: inherit;
+  border-radius:  1000px;
+  
+}
+.head-nav{
+  display: flex;
+  justify-content: space-around;
+  flex: 0.6;
+  
+}
+.header-links{
+  color:white;
+  font-size: 40px;
+}
