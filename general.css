@@ -7,6 +7,7 @@
   caret-color: blueviolet;
   color: white;
   font-family:helvetica ;
+
   
   
  }
@@ -18,4 +19,11 @@ body{
 background-image: url(background2.png);
 background-color: black;
 background-size: cover;
+height: 1100px;
+
+}
+h2{
+  color: orange;
+  margin-top: 30px;
+  margin-left: 10%;
 }

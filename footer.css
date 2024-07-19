@@ -6,13 +6,13 @@ footer{
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  opacity: 0.7;
+  background-color: rgba(0,0,0,0.7);
+  /* opacity: 0.7; */
   border: solid;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
-  border-color: green;
+  border-color:orange;
   background-size: cover;
   position: fixed;
   bottom: 0;
@@ -27,6 +27,10 @@ footer{
 
 }
 .foot-img-cont{
+  /* max-width: 25%; */
+  height:inherit;
+}
+.foot-img-at{
   max-width: 25%;
   height:inherit;
 }

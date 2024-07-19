@@ -2,17 +2,19 @@ header{
   display: flex;
   flex: 1;
   margin-top: 0;
-  height: 150px;
+  height: 100px;
  justify-content: space-between;
  border: solid;
-border-color: green;
+border-color: orange;
 border-top: 0px;
 border-left: 0px;
 border-right: 0px;
 align-items: end;
-opacity: 0.9;
 background-size: cover;
-background-color: black;
+background-color: rgba(0,0,0,0.9);
+position: fixed;
+top:0;
+width: 100%;
  
 }
 .banner-img{
@@ -24,16 +26,40 @@ background-color: black;
 }
 .profile-pic{
  height: inherit;
-  border-radius:  1000px;
+  border-radius:1000px;
   
 }
 .head-nav{
   display: flex;
   justify-content: space-around;
-  flex: 0.6;
+  flex: 0.6; 
+  padding-bottom:2px;
+}
+.head-nav a:nth-of-type(1){
+  background-color: orange;
+}
+.head-nav a:nth-of-type(2){
+  background-color: rgb(0, 187, 255);
+}
+.head-nav a:nth-of-type(3){
+  background-color: rgb(0, 187, 255);
+}
+
+.head-nav a:active{
+  color: white
   
 }
 .header-links{
   color:white;
+  border: 2px;
+  border-color: none;
+  border-radius: 30px;
+  padding: 3px;
+  padding-left:20px;
+  padding-right: 20px;
   font-size: 40px;
 }
+
+
+
+
