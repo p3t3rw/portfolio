@@ -20,7 +20,7 @@ main{
   /* background-color: rgba(0,0,0,0.8); */
 }
 .main-para-div{
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
 }
 .main-div-two{
     height: inherit;
@@ -37,7 +37,7 @@ main{
 height: 1100px;
   flex: 1;
  flex-direction: column;
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
   
   background-size: cover;
   justify-content: center;
