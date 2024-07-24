@@ -4,8 +4,9 @@ header{
   margin-top: 0;
   height: 100px;
  justify-content: space-between;
+ align-items: center;
  border: solid;
-border-color: orange;
+border-color:rgb(0, 187, 255);
 border-top: 0px;
 border-left: 0px;
 border-right: 0px;
@@ -22,6 +23,11 @@ width: 100%;
 }
 .profile-pic-container{
   width: 25%;
+
+
+
+
+
   height: inherit;
 }
 .profile-pic{
@@ -30,8 +36,10 @@ width: 100%;
   
 }
 .head-nav{
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  align-items: center;
   flex: 0.6; 
   padding-bottom:2px;
 }
@@ -51,6 +59,7 @@ width: 100%;
 }
 .header-links{
   color:white;
+  margin: 2%;
   border: 2px;
   border-color: none;
   border-radius: 30px;
