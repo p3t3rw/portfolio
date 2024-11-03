@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   caret-color: blueviolet;
   color: white;
   font-family:helvetica ;
@@ -16,7 +16,7 @@
 }
 body{
 
-  background-image: url(IMAGES/background2.png);
+  background-image: url(images/background2.png);
   background-color: rgba(0, 0, 0, 0.8);
   background-blend-mode:darken ;
   background-size: cover;
