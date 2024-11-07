@@ -6,14 +6,18 @@
  margin-left: 100px;
  margin-right: 100px;
  margin-bottom: 200px;
- background-size: cover;
+
 }
 .site_img{
     width: 100%;
     
     
+    
 }
 .site_para{
     text-align: center;
+    margin-top: 5px;
     font-size: 20px;
+    border: solid;
+    border-color: rgb(0, 187, 255);
 }
