@@ -1,11 +1,12 @@
  *{
+  
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
   /* border: solid 1px red; */
   caret-color: blueviolet;
-  color: white;
+  color: rgb(203, 204, 207);
   font-family:helvetica ;
 
   
