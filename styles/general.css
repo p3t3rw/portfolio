@@ -19,10 +19,10 @@ body{
 
   background-image: url(images/background2.png);
   background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgb(43, 226, 113);
   background-blend-mode:darken ;
   background-size: cover;
-  display: grid;
-  height: auto;
+  height: 100%;
 
 }
 h2{

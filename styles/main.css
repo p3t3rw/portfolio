@@ -1,15 +1,18 @@
 main{
   display: grid;
-  height: 900px;
+  height: auto;
   grid-template-columns: 1fr 1fr;
   /* background-color:rgba(0,0,0,0.7); */
   /* opacity: 0.9; */
   background-size: contain;
   padding-top: 100px;
+  padding-bottom: 00px;
+  margin-bottom: 0px;
+
   
 }
 .para_header{
-  margin-top: 140px;
+  margin-top: 80px;
   margin-bottom: 50px;
   font-size: 45PX;
 }
@@ -34,7 +37,7 @@ main{
 .tag-line{
   font-size: 40px;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 160px;
 }
 .main-para-div{
 /* height: inherit; */
@@ -42,7 +45,7 @@ main{
   background-size: contain;
 }
 .main-div-two{
-    height: inherit;
+    height: 800px;
     background-image: url(images/20231012_131217.jpg);
     background-size: cover;
   }
@@ -91,4 +94,15 @@ main{
   border-color: rgb(0, 187, 255);
   text-indent: 2em;
   
+}
+.cont{
+  display: block;
+  
+  border-top: solid orange;
+  
+  /* background-color: rgb(19, 184, 235); */
+}
+.master-cont{
+  display: flex;
+  flex-direction: column;
 }
