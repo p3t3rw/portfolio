@@ -46,8 +46,11 @@ main{
 }
 .main-div-two{
     height: 800px;
-    background-image: url(images/20231012_131217.jpg);
-    background-size: cover;
+    background-image: url(images/transparent.png);
+    /* background-color: rgba(0,0,0, 0.1); */
+    /* opacity: 0.5; */
+    background-position: center top ;
+    background-size: cover; 
   }
 
 .main-img{
