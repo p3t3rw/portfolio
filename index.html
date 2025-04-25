@@ -12,18 +12,29 @@
   <title>PETER HOME</title>
 </head>
 <body>
-  <header>
-    <div class="profile-pic-container">
-      <img class="profile-pic" src="styles/images/my logo.png"" alt="picture of me">
-      </div> 
-        <nav class="head-nav">
-          <a class="visited-link" href="index.html">Home</a>
-          <a class="header-links" href="portfolio.html">Portfolio</a>
-          <a class="header-links" href="about.html">About</a>
-          <a class="header-links" href="contact.html">Contact</a>
+    <nav >
+      <ul class="sidebar">
+       <li onclick=hidesidebar()><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+        <li><a href="index.html"><img class="profile-pic" src="styles/images/my logo.png" alt="picture of me"></a></li>
+        <li><a class="visited-link" href="index.html">Home</a></li>
+        <li><a class="header-links" href="portfolio.html">Portfolio</a></li>
+        <li><a class="header-links" href="about.html">About</a></li>
+        <li><a class="header-links" href="contact.html">Contact</a></li> 
+        <li><a href="#"></a></li>
+      </ul>
+      
+    <ul>
+      <!-- <img class="profile-pic" src="styles/images/my logo.png"" alt="picture of me"> -->
+      <li ><a href="index.html"><img class="profile-pic" src="styles/images/my logo.png" alt="picture of me"></a></li>
+      <li class="hideonmobile"><a class="visited-link" href="index.html">Home</a></li>
+      <li class="hideonmobile"><a class="header-links" href="portfolio.html">Portfolio</a></li>
+      <li class="hideonmobile"><a class="header-links" href="about.html">About</a></li>
+      <li class="hideonmobile"><a class="header-links" href="contact.html">Contact</a></li> 
+      <li class="menu-button" onclick =showsidebar()><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+    </ul>
         </nav>
-  </header>
-  <div class="master-cont">
+  
+  <div class="master-cont hideonmobile">
 <main>
   <div class="main-para-div">
     <h2 class="para_header">
@@ -54,7 +65,7 @@
     </div> -->
     
   </div>
-  <div class="main-div-two">
+  <div  class="main-div-two hideonmobile">
   </div>
 </main> 
 <section class="cont">
@@ -93,6 +104,9 @@
     </nav>
 </footer> 
 
-  
+  <script src="scripts/script.js"></script>
+    
+   
+
 </body>
 </html>

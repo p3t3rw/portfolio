@@ -6,7 +6,7 @@ footer{
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgb(10, 10, 10);
   /* opacity: 0.7; */
   border: solid;
   border-bottom: 0;

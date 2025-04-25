@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles/contact.css">
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/responsive.css">
  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="profile-pic-container">
-      <img class="profile-pic" src="styles/images/facepicsq.png"" alt="picture of me">
-      </div> 
-        <nav class="head-nav">
-          <a class="header-links" href="index.html">Home</a>
-          <a class="header-links" href="portfolio.html">Portfolio</a>
-          <a class="header-links" href="about.html">About</a>
-          <a class="visited-link" href="contact.html">Contact</a>
-        </nav>
-  </header>
+  <nav >
+    <ul class="sidebar">
+     <li onclick=hidesidebar()><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+      <li><a href="index.html"><img class="profile-pic" src="styles/images/my logo.png" alt="picture of me"></a></li>
+      <li><a class="header-links" href="index.html">Home</a></li>
+      <li><a class="header-links" href="portfolio.html">Portfolio</a></li>
+      <li><a class="header-links" href="about.html">About</a></li>
+      <li><a class="visited-link" href="contact.html">Contact</a></li> 
+      <li><a href="#"></a></li>
+    </ul>
+    
+  <ul>
+    <!-- <img class="profile-pic" src="styles/images/my logo.png"" alt="picture of me"> -->
+    <li ><a href="index.html"><img class="profile-pic" src="styles/images/my logo.png" alt="picture of me"></a></li>
+    <li class="hideonmobile"><a class="header-links" href="index.html">Home</a></li>
+    <li class="hideonmobile"><a class="header-links" href="portfolio.html">Portfolio</a></li>
+    <li class="hideonmobile"><a class="header-links" href="about.html">About</a></li>
+    <li class="hideonmobile"><a class="visited-link" href="contact.html">Contact</a></li> 
+    <li class="menu-button" onclick =showsidebar()><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+  </ul>
+      </nav>
 <div class="page-top-div">
 <h1 class="page-header"> LET'S CONNECT</h1>
 <div class="page-para-div">
@@ -110,5 +121,6 @@ You can connect with me through any of these networks.
     </div>
     </nav>
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>

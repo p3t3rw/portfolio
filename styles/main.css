@@ -80,6 +80,7 @@ main{
 .main-para-div{
 /* height: inherit; */
 padding: none;
+width: 100%;
 
   background-size: contain;
 }
@@ -174,3 +175,8 @@ height: 40px;
   margin-top: 1%;
   margin-bottom: none;
   }
+  @media (max-width:920px){
+    main {
+    grid-template-columns: 1fr;
+    padding: 0px;
+    }}
