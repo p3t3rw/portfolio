@@ -12,6 +12,9 @@
   border-radius:1000px;
 
 }
+nav{
+  border-bottom: solid 3px orange  ;
+}
 
 nav ul{
   margin-top: 1px;
@@ -125,5 +128,9 @@ nav li:last-child{
   .sidebar{
     width: 100%;
   }
+  .main-para{
+    display: none;
 
-}
+  }
+  }
+

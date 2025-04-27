@@ -180,3 +180,8 @@ height: 40px;
     grid-template-columns: 1fr;
     padding: 0px;
     }}
+    @media(max-width:420px){
+      .main-para{
+        display: none;
+      }
+    }
