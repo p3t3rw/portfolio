@@ -129,8 +129,18 @@ nav li:last-child{
     width: 100%;
   }
   .main-para{
-    display: none;
+    display: none;}
+    /* nav ul{
+      justify-items: auto;
+    } */
 
+  nav li:first-child {
+    margin-right: 24%;
+    align-content: center;
+   
   }
+  nav li:last-child{
+    justify-content: flex-start;
   }
 
+}
